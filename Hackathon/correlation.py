@@ -24,6 +24,8 @@ df_drop_first_columns = df.iloc[:, 1:]
 df_long = pd.melt(df_drop_first_columns, "label", var_name="Bacteria", value_name="Number")
 # print(df_long.head(786).to_string())
 sns.boxplot(x="Bacteria", hue="label", y="Number", data=df_long)
-plt.show()
+#plt.show()
 # print(con.columns)
 # print(list_attributes)
+df.describe()
+
