@@ -1,1 +1,0 @@
-All data is split for datasets with Type 2 Diabetes (T2D), Irritated Bowel Disease (IBD), Coronary Artery Disease (CAD) and Chronic Kidney Disease (CDK). For each disorder there are 5 taxonomic levels (in order: Class, Order, Family, Genus, Species). The labels are always the last column in the dataset, 1 means the patient has the disease, 0 means they do not have the disease.
