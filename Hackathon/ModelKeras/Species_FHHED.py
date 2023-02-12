@@ -24,8 +24,7 @@ X = pca.transform(X)
 X = pd.DataFrame(X)
 y = pd.DataFrame(y, columns=['label'])
 df = pd.concat([X, y], axis=1)
-print(df)
 ##########################
 
 #path_output_data = path_input_data
-#df.to_csv(path_output_data)
+df.to_csv("test.csv", index=False, header=False)
